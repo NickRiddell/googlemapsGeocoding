@@ -1,0 +1,31 @@
+body {
+  background-color: #492d71;
+}
+
+.formBackground {
+  background-color: #fff;
+  width: 95vw;
+  height: 34vh;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 18vh;
+}
+
+.formBox {
+  position: absolute;
+  top: 27vh;
+  width: 95%;
+}
+
+.formBox input {
+  border: 1px solid #cccccc;
+  height: 25px;
+  margin: 5px auto;
+  display: block;
+  width: 75%;
+  border-radius: 5px;
+}
+
+input::-webkit-input-placeholder {
+  padding-left: 10px;
+}

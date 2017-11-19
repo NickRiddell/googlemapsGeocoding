@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Maps Place Auto Complete</title>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjiZas8YFnlhXNiLnVcMt8LfZt_j-U8Cw&libraries=places"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="initialize()">
+  <div class="formBackground">
+    <div class="formBox">
+      <input type="text" id="addressBox" placeholder="Address" onkeypress="handleKeyPress(event)" />
+      <input type="text" id="latitude" placeholder="Latitude" disabled="disabled" />
+      <input type="text" id="longitude" placeholder="Longitude" disabled="disabled" />
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+
+</html>
